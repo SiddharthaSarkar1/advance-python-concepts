@@ -21,3 +21,11 @@ my_list = [1,2,3,4,5,6]
 power_of_two = [x ** 2 for x in my_list]
 
 print(power_of_two)
+
+#=======================================================
+
+words = ['automobile', 'car', 'anger', 'fox', 'audio', 'adult', 'rain', 'faith']
+
+words = [word.upper() if word.startswith('a') else word for word in words]
+
+print(words)
