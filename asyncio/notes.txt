@@ -1,0 +1,5 @@
+# There are 3 major ways to do concurrent programming in python
+
+1. Multithreading
+2. Multiprocessing
+3. Asynchronous programming (asyncio)
